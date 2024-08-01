@@ -11,3 +11,8 @@
   width: 100%;
   align-items: flex-start;
 }
+
+.header{
+  height: 150px;
+  background-color: rgb(255, 108, 108);
+}
