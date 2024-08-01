@@ -5,9 +5,9 @@ const Header = () => {
   return(
     <div className="header">
     <nav>
-      <Link to={"/"}>HOME</Link>
-      <Link to={"solicitarcertidao"}>SOLICITAR CERTIDAO</Link>
-      <Link to={"certidoes"}>CERTIDOES</Link>
+      <Link className="nav-btn" to={"/"}>HOME</Link>
+      <Link className="nav-btn" to={"solicitarcertidao"}>SOLICITAR CERTIDAO</Link>
+      <Link className="nav-btn" to={"certidoes"}>CERTIDOES</Link>
     </nav>
   </div>
   );

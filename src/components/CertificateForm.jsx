@@ -3,7 +3,7 @@ import React from "react";
 const CertificateForm = () => {
   return (
     <>
-      <div className="form-container">
+      <div className="form">
         <form action="" className="certificate-form">
           <label htmlFor="fiel_name">Nome completo</label>
           <input type="text" name="name" id="fiel_name" placeholder="Nome completo"/>
