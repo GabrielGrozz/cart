@@ -1,33 +1,32 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="home-container container pt-[70px] pl-10 ">
-      <div className="title flex justify-center m-10 text-4xl font-bold">
-        <h1>CARTÓRIO DISTRIBUIDOR DE CASCAVEL- PARANÁ</h1>
+    <div className="container bg-red-50 pt-[120px] pl-10 ">
+      <div className="flex justify-center m-10">
+        <h1 className="text-4xl font-bold">CARTÓRIO DISTRIBUIDOR DE CASCAVEL- PARANÁ</h1>
       </div>
-      <div className="request-container m-9">
-        <h2 className="request-title text-3xl font-semibold my-3">
-          Solicitação de certidão
-        </h2>
-        <div className="container flex flex-wrap">
-          <p className="request-content max-w-96 ">
+      <div className="m-32">
+        <h2 className="text-3xl font-semibold my-3">Solicitação de certidão</h2>
+        <div className="container flex jus flex-wrap">
+          <p className="max-w-96 ">
             Você pode tanto estar solicitando uma certidão tanto pessoalmente
             quanto pelo nosso WhatsApp, e-mail e site, basta acessar a área
             solicitar certidão ou clicar no botão ao lado.
           </p>
-          <div className="request-btn-container ml-32 flex justify-center items-center">
-            <button className="request-btn bg-green-700 hover:bg-green-600 rounded text-white text-lg px-6 h-10 w-72">
-              solicitar certidão
-            </button>
+          <div className="ml-32 flex justify-center items-center">
+            <Link to={"solicitarcertidao"}>
+              <button className=" bg-green-700 hover:bg-green-600 rounded-xl text-white text-xl px-6 h-14 w-80">
+                solicitar certidão
+              </button>
+            </Link>
           </div>
         </div>
       </div>
-      <div className="location-container m-9">
-        <h2 className="locatio-title  text-3xl font-semibold my-3">
-          Localização
-        </h2>
-        <p className="location-content">
+      <div className="m-32">
+        <h2 className="text-3xl font-semibold my-3">Localização</h2>
+        <p className="">
           Estamos localizados anexo ao Fórum de Cascavel - Paraná
         </p>
 
@@ -46,10 +45,15 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="m-9">
-        <h2 className="text-2xl font-semibold my-3">Dúvidas</h2>
-        <p className="mb-2">Nosso horário de atendimento é de segunda a sexta das 12:00 às 18:00</p>
-        <p className="mb-2">Sobre demais dúvidas você pode estar entrando em contato pelo nosso telefone (45) 3326-4479.</p>
+      <div className="m-32">
+        <h2 className="text-3xl font-semibold my-3">Dúvidas</h2>
+        <p className="mb-2">
+          Nosso horário de atendimento é de segunda a sexta das 12:00 às 18:00
+        </p>
+        <p className="mb-2">
+          Sobre demais dúvidas você pode estar entrando em contato pelo nosso
+          telefone (45) 3326-4479.
+        </p>
       </div>
     </div>
   );

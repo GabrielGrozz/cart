@@ -1,15 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import tjprLogo from "../images/tjpr.png";
 
 const Header = () => {
-  return(
-    <div className="header">
-    <nav>
-      <Link className="nav-btn" to={"/"}>HOME</Link>
-      <Link className="nav-btn" to={"solicitarcertidao"}>SOLICITAR CERTIDAO</Link>
-      <Link className="nav-btn" to={"certidoes"}>CERTIDOES</Link>
-    </nav>
-  </div>
+  return (
+    <div className="bg-black w-[100%] h-24 fixed flex justify-between p-3 pl-16">
+      <img className="h-[90%] " src={tjprLogo} alt="tjpr" />
+      <div className="flex items-center">
+        <nav>
+          <Link className="nav-btn text-white text-lg" to={"/"}>
+            HOME
+          </Link>
+          <Link className="nav-btn text-white text-lg" to={"solicitarcertidao"}>
+            SOLICITAR CERTIDAO
+          </Link>
+          <Link className="nav-btn text-white text-lg" to={"certidoes"}>
+            CERTIDOES
+          </Link>
+        </nav>
+      </div>
+      <div></div>
+    </div>
   );
 };
 
