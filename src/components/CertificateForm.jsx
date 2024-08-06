@@ -4,17 +4,24 @@ const CertificateForm = () => {
   return (
     <>
       <div className="form">
-        <form action="" className="certificate-form">
-          <label htmlFor="fiel_name">Nome completo</label>
-          <input type="text" name="name" id="fiel_name" placeholder="Nome completo"/>
+        <form className="bg-red-600 grid grid-rows-2 grid-cols-2 gap-3" action="">
+          <div className="dale col-span-">
 
-          <label htmlFor="field_rg">Registro geral(RG)</label>
-          <input type="text" name="rg" id="field_rg" placeholder="Registro geral(RG)"/>
+            <label htmlFor="fiel_name">Nome completo</label>
+            <input className="w-[95%]" type="text" name="name" id="fiel_name" placeholder="Nome completo"/>
+          </div>
 
-          <label htmlFor="field_cpf">CPF</label>
-          <input type="text" name="cpf" id="field_cpf" placeholder="CPF"/>
+            <div className="dale flex flex-col">
+              <label htmlFor="field_rg">Registro geral(RG)</label>
+              <input type="text" name="rg" id="field_rg" placeholder="Registro geral(RG)"/>
+            </div>
+            <div className="dale flex flex-col">
+              <label htmlFor="field_cpf">CPF</label>
+              <input type="text" name="cpf" id="field_cpf" placeholder="CPF"/>
+            </div>
 
-          <label htmlFor="field_birth_date">Data de nascimento</label>
+
+          {/* <label htmlFor="field_birth_date">Data de nascimento</label>
           <input type="text" name="birthDate" id="field_birth_date" placeholder="Data de nascimento"/>
 
           <label htmlFor="fiel_m_name">Nome da mãe</label>
@@ -38,7 +45,7 @@ const CertificateForm = () => {
           <input type="checkbox" name="" id="formCertificateGeralCivel" />
           <label htmlFor="formCertificateGeral">Geral cível</label>
 
-          <input type="submit" name="submit" id="submitBtn" value={"Solicitar certidão"}/>
+          <input type="submit" name="submit" id="submitBtn" value={"Solicitar certidão"}/> */}
         </form>
       </div>
     </>

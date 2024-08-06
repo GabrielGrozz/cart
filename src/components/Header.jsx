@@ -4,17 +4,17 @@ import tjprLogo from "../images/tjpr.png";
 
 const Header = () => {
   return (
-    <div className="bg-black w-[100%] h-24 fixed flex justify-between p-3 pl-16">
+    <div className="bg-black w-[100%] h-[15vh] fixed flex justify-between p-3 pl-16">
       <img className="h-[90%] " src={tjprLogo} alt="tjpr" />
       <div className="flex items-center">
         <nav>
-          <Link className="nav-btn text-white text-lg" to={"/"}>
+          <Link className="nav-btn text-white text-lg font-semibold" to={"/"}>
             HOME
           </Link>
-          <Link className="nav-btn text-white text-lg" to={"solicitarcertidao"}>
+          <Link className="nav-btn text-white text-lg font-semibold" to={"solicitarcertidao"}>
             SOLICITAR CERTIDAO
           </Link>
-          <Link className="nav-btn text-white text-lg" to={"certidoes"}>
+          <Link className="nav-btn text-white text-lg font-semibold" to={"certidoes"}>
             CERTIDOES
           </Link>
         </nav>
