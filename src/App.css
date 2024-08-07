@@ -1,50 +1,8 @@
-
-.header{
-  position: fixed;
-  width: 100%;
-  height: 70px;
-  background-color: rgb(255, 108, 108);
-}
-
-.nav-btn{
-  margin: 30px;
-}
-
-
-
-
-
-.certificate-types-container{
-  padding-top: 70px;
-}
-
-.how-request-container{
-  display: flex;
-  flex-direction: column;
-}
-
 .how-request{
   background-color: yellow;
 }
 
-.form-container{
-  max-width: 50%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: end;
-  height: 500px;
-}
-.certificate-form{
-  background-color: red;
-  display: flex;
-  flex-direction: column;
-  width: 30vw;
-  align-items: flex-start;
 
-}
 
-input{
-  background: greenyellow;
-}
 
 

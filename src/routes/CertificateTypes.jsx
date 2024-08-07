@@ -2,7 +2,7 @@ import React from "react";
 
 const CertificateTypes = () => {
   return (
-    <div className="container pt-[15vh]">
+    <div className="container mx-auto pt-[15vh]">
       <div className="px-32">
         <h2 className="subtitle">Nossas certidões</h2>
         <div className="pb-10">

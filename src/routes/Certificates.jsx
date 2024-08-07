@@ -3,8 +3,8 @@ import CertificateForm from "../components/CertificateForm";
 
 const Certificates = () => {
   return (
-    <div className="container pt-[15vh]">
-      <div className="px-32 ">
+    <div className="container mx-auto pt-[15vh]">
+      <div className="pl-32 pr-16">
         <h1 className="subtitle">Solicitação de certidões</h1>
         <div className="flex">
           <div>
