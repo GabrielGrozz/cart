@@ -4,11 +4,11 @@ const CertificateTypes = () => {
   return (
     <div className="container mx-auto pt-[15vh]">
       <div className="px-32">
-        <h2 className="subtitle">Nossas certidões</h2>
+        <h2 className="subtitle1">Nossas certidões</h2>
         <div className="pb-10">
           <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3   gap-4 pl-10">
             <div className="certificate-type">
-              <h2 className="text-xl font-semibold my-2">Certidão geral</h2>
+              <h2 className="subtitle2">Certidão geral</h2>
               <p className="">
                 A nossa certidão geral possui o valor de R$42,95. Ela abrange as
                 Varas Cíveis, Vara da Fazenda Pública, Juizados Especiais Cíveis
@@ -18,7 +18,7 @@ const CertificateTypes = () => {
               </p>
             </div>
             <div className="certificate-type">
-              <h2 className="text-xl font-semibold my-2">Certidão geral cível</h2>
+              <h2 className="subtitle2">Certidão geral cível</h2>
               <p className="">
                 Nossa certidão geral civel possui o valor de R$42,95. Ela
                 abrange as Varas Cíveis, Ações de interdição dase Tutela, Vara
@@ -29,7 +29,7 @@ const CertificateTypes = () => {
               </p>
             </div>
             <div className="certificate-type">
-              <h2 className="text-xl font-semibold my-2">Certidão geral criminal</h2>
+              <h2 className="subtitle2">Certidão geral criminal</h2>
               <p >
                 Nossa certidão geral criminal possui o valor de R$85,90. Ela
                 abrange as ações com sentença transitada em julgado e/ou
@@ -40,7 +40,7 @@ const CertificateTypes = () => {
               </p>
             </div>
             <div className="certificate-type">
-              <h2 className="text-xl font-semibold my-2">Certidão de trabalho</h2>
+              <h2 className="subtitle2">Certidão de trabalho</h2>
               <p >
                 Nossa certidão de trabalho é gratuita e deve ser solicitada pela
                 própria pessoa. Ela abrange as Varas Cíveis, Vara da Fazenda
@@ -49,7 +49,7 @@ const CertificateTypes = () => {
               </p>
             </div>
             <div className="certificate-type">
-              <h2 className="text-xl font-semibold my-2">Certidão de falência</h2>
+              <h2 className="subtitle2">Certidão de falência</h2>
               <p >
                 Nossa certidão de falência possui o valor de R$42,95. Ela
                 abrange as ações de falência ou concordata, recuperação

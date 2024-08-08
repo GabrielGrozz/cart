@@ -14,8 +14,11 @@
   .certificate-type{
     @apply bg-slate-200 rounded-xl shadow-lg flex justify-start items-center flex-col px-6 py-2
   }
-  .subtitle{
+  .subtitle1{
     @apply text-3xl font-semibold my-7
+  }
+  .subtitle2{
+    @apply text-xl font-semibold my-2 text-center
   }
   .field{
     @apply flex flex-col
