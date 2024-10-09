@@ -3,9 +3,9 @@ import React from "react";
 const CertificateForm = () => {
   return (
     <>
-      <div className="form">
+      <div className="form bg-gray-300 p-5 rounded shadow-2xl">
         <form className=" " action="">
-          <div className="grid grid-cols-10 gap-3">
+          <div className="grid grid-cols-10 gap-3 ">
             <div className=" col-span-10 field">
               <label htmlFor="fiel_name">Nome completo</label>
               <input
@@ -110,9 +110,9 @@ const CertificateForm = () => {
               <label htmlFor="formCertificateGeralCivel">Geral cível</label>
             </div>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center py-5">
             <input
-              className="col-span-5 bg-green-700 hover:bg-green-600 rounded-xl text-white text-lg px-6 h-[6vh] w-[20vw]"
+              className="col-span-5 bg-green-700 transition-all hover:bg-green-600 hover:scale-105 rounded-xl text-white text-lg px-10 h-[6vh] w-[20vw]"
               type="submit"
               name="submit"
               id="submitBtn"

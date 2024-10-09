@@ -6,7 +6,7 @@ const CertificateTypes = () => {
       <div className="px-32">
         <h2 className="subtitle1">Nossas certidões</h2>
         <div className="pb-10">
-          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3   gap-4 pl-10">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3   gap-4">
             <div className="certificate-type">
               <h2 className="subtitle2">Certidão geral</h2>
               <p className="">

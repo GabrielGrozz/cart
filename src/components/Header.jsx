@@ -9,13 +9,13 @@ const Header = () => {
       <div className="flex items-center">
         <nav>
           <Link className="nav-btn text-white text-lg font-semibold" to={"/"}>
-            HOME
+            INÍCIO
           </Link>
           <Link className="nav-btn text-white text-lg font-semibold" to={"solicitarcertidao"}>
-            SOLICITAR CERTIDAO
+            SOLICITAR CERTIDÃO
           </Link>
           <Link className="nav-btn text-white text-lg font-semibold" to={"certidoes"}>
-            CERTIDOES
+            CERTIDÕES
           </Link>
         </nav>
       </div>

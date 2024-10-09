@@ -3,8 +3,8 @@ import CertificateForm from "../components/CertificateForm";
 
 const Certificates = () => {
   return (
-    <div className="container mx-auto pt-[15vh]">
-      <div className="pl-32 pr-16">
+    <div className="container-certificate container mx-auto pt-[15vh]">
+      <div className=" pr-16">
         <h1 className="subtitle1">Solicitação de certidões</h1>
         <div className="flex">
           <div className="pt-[10vh]">
@@ -26,7 +26,7 @@ const Certificates = () => {
             </div>
           </div>
 
-          <div className="flex grow justify-end">
+          <div className="flex grow justify-end ml-10 py-10 ">
             <CertificateForm />
           </div>
         </div>
