@@ -7,16 +7,22 @@ const Header = () => {
     <div className="bg-black w-[100%] h-[15vh] fixed flex justify-between p-3 pl-16">
       <img className="h-[90%] " src={tjprLogo} alt="tjpr" />
       <div className="flex items-center">
-        <nav>
-          <Link className="nav-btn text-white text-lg font-semibold" to={"/"}>
-            INÍCIO
-          </Link>
-          <Link className="nav-btn text-white text-lg font-semibold" to={"solicitarcertidao"}>
-            SOLICITAR CERTIDÃO
-          </Link>
-          <Link className="nav-btn text-white text-lg font-semibold" to={"certidoes"}>
-            CERTIDÕES
-          </Link>
+        <nav className="flex">
+          <div className=" nav-btn-container ">
+            <Link className="nav-btn " to={"/"}>
+              INÍCIO
+            </Link>
+          </div>
+          <div className="nav-btn-container">
+            <Link className="nav-btn" to={"solicitarcertidao"}>
+              SOLICITAR CERTIDÃO
+            </Link>
+          </div>
+          <div className="nav-btn-container">
+            <Link className="nav-btn" to={"certidoes"}>
+              CERTIDÕES
+            </Link>
+          </div>
         </nav>
       </div>
       <div></div>

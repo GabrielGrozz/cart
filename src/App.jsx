@@ -9,8 +9,8 @@ import { Outlet } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <div className="">
+    <div className="App ">
+      <div className=" w-[100%]">
         <Header />
         <Outlet />
         <Footer />

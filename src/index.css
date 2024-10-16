@@ -2,37 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+html{
+
+}
+* {
   margin: 0;
   padding: 0;
 }
 
-.container-certificate{ 
+.container-certificate {
   background-size: 50vh;
   background-position: 25vw 30vh;
   background-repeat: no-repeat;
-  background-image: url("./images/Brasao_do_Parana.png")
+  background-image: url("./images/Brasao_do_Parana.png");
 }
 
 @layer components {
-  .nav-btn{
-    @apply m-8;
+  .nav-btn-container {
+    @apply transition-all hover:scale-105 ;
   }
-  .certificate-type{
-    @apply bg-slate-200 rounded-xl shadow-lg flex justify-start items-center flex-col px-6 py-2
+  .nav-btn {
+    @apply m-8 transition-all text-white text-lg font-semibold underline hover:text-blue-800;
   }
-  .subtitle1{
-    @apply text-3xl font-semibold my-7
+  .certificate-type {
+    @apply bg-slate-200 rounded-xl shadow-lg flex justify-start items-center flex-col px-6 py-2;
   }
-  .subtitle2{
-    @apply text-xl font-semibold my-2 text-center
+  .subtitle1 {
+    @apply text-3xl font-semibold my-7;
   }
-  .field{
-    @apply flex flex-col 
+  .subtitle2 {
+    @apply text-xl font-semibold my-2 text-center;
   }
-  .input{
-    @apply shadow appearance-none border rounded py-2 px-3 transition-all leading-tight bg-gray-200 hover:bg-gray-100 hover:shadow-md focus:bg-gray-50
+  .field {
+    @apply flex flex-col;
   }
-
+  .input {
+    @apply shadow appearance-none border rounded py-2 px-3 transition-all leading-tight bg-gray-200 hover:bg-gray-100 hover:shadow-md focus:bg-gray-50;
+  }
 }
-

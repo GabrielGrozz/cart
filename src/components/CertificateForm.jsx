@@ -112,7 +112,7 @@ const CertificateForm = () => {
           </div>
           <div className="flex justify-center py-5">
             <input
-              className="col-span-5 bg-green-700 transition-all hover:bg-green-600 hover:scale-105 rounded-xl text-white text-lg px-10 h-[6vh] w-[20vw]"
+              className="col-span-5 bg-green-700 transition-all hover:bg-green-600 hover:scale-105 rounded-xl text-white text-lg px-10 h-[6vh] w-[70vw] lg:w-[20vw] md:w-[30vw]"
               type="submit"
               name="submit"
               id="submitBtn"
